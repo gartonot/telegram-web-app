@@ -1,0 +1,38 @@
+body {
+  font-family: var(--font-family-default);
+}
+
+.page {
+  max-width: 560px;
+  margin-inline: auto;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 86px;
+}
+
+.page::before,
+.page::after {
+  content: '';
+  display: block;
+  position: fixed;
+}
+
+.page::before {
+  width: 98px;
+  height: 82px;
+  background-image: url('../images/flight_1.svg');
+  top: 19px;
+  left: -27px;
+}
+
+.page::after {
+  width: 204px;
+  height: 188px;
+  background-image: url('../images/flight_2.svg');
+  top: -55px;
+  right: -69px;
+}
+
+.content {
+  padding-bottom: calc(var(--footer-height) + 20px);
+}

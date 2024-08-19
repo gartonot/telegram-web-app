@@ -1,0 +1,21 @@
+.menu {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.menu__list-item-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(53 53 53 / 50%);
+}
+
+.item-link_active {
+  color: var(--color-primary);
+}

@@ -1,0 +1,12 @@
+:root {
+  /* Footer */
+  --footer-height: 87px;
+
+  /* Fonts */
+  --font-family-default: 'Manrope', sans-serif;
+
+  /* Colors */
+  --color-primary: #56B2EB;
+  --color-white-dark: #F2F2F2;
+
+}

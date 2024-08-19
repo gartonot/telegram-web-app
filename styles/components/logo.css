@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_button {
+  padding: 22px 62px;
+  background-color: #D9D9D9;
+  font-weight: 700;
+}

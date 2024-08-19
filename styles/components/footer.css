@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--color-white-dark);
+  padding: 25px 30px 20px 30px;
+  border-radius: 20px 20px 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--footer-height);
+}
+
